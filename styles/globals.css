@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --darkgrn: #627363;
+  --green: #AFBFA3;
+  --lightgreen: #D2D9CC;
+  --pink: #F2CBC2;
+  --lightpink: #F2E6E4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  scroll-margin-top: 100px;
+  background-color: azure;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full height */
+  color: var(--green);
+  margin: 0; /* Remove default margin */
+}
+
+.global-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  background: var(--darkgrn);
+  height: 6rem; /* Set a fixed height for the header */
+}
+
+/* Add margin-top to the content to account for header height */
+.content {
+  flex-grow: 1; /* Allow this section to take up remaining space */
+  margin-top: 8rem; /* Push content below the header */
+}
+
+/* Footer styles */
+.footer {
+  background: var(--darkgrn); /* Example footer background */
+  color: white; /* Example footer text color */
+  text-align: center; /* Center footer text */
+  padding: 1rem 0; /* Add some padding */
+}
+
+/* Other existing styles */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  margin-top: auto;
+}
+
+/* Style the page titles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
+/* Headings */
+h1 { font-size: 48px; line-height: 1.2; }
+h2 { font-size: 36px; line-height: 1.2; }
+h3 { font-size: 24px; line-height: 1.2; }
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 0;
+}
