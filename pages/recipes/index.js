@@ -6,9 +6,9 @@ export default function Recipes() {
   const [showPopup, setShowPopup] = useState(false);
 
   const recipes = [
-    { id: 1, name: 'Spaghetti Bolognese', imgSrc: '/images/spaghetti-bolognese.jpg', ingredients: ['Pasta', 'Minced Meat', 'Tomato Sauce'], story: 'A classic Italian dish that is loved worldwide.' },
-    { id: 2, name: 'Roast Chicken', imgSrc: '/images/roast-chicken.jpg', ingredients: ['Whole Chicken', 'Herbs', 'Garlic'], story: 'Perfectly roasted chicken with crispy skin.' },
-    { id: 3, name: 'Vegetable Stir Fry', imgSrc: '/images/vegetable-stir-fry.jpg', ingredients: ['Mixed Vegetables', 'Soy Sauce', 'Ginger'], story: 'A quick and healthy meal option.' },
+    { id: 1, name: 'Spaghetti Bolognese', imgSrc: '/images/spaghetti bolognese.png', ingredients: ['Pasta', 'Minced Meat', 'Tomato Sauce'], story: 'A classic Italian dish that is loved worldwide.' },
+    { id: 2, name: 'Roast Chicken', imgSrc: '/images/roast chicken.jpg', ingredients: ['Whole Chicken', 'Herbs', 'Garlic'], story: 'Perfectly roasted chicken with crispy skin.' },
+    { id: 3, name: 'Vegetable Stir Fry', imgSrc: '/images/vegetable stir fry.png', ingredients: ['Mixed Vegetables', 'Soy Sauce', 'Ginger'], story: 'A quick and healthy meal option.' },
     { id: 4, name: 'Spaghetti Bolognese', imgSrc: '/images/spaghetti-bolognese.jpg', ingredients: ['Pasta', 'Minced Meat', 'Tomato Sauce'], story: 'A classic Italian dish that is loved worldwide.' },
     { id: 5, name: 'Roast Chicken', imgSrc: '/images/roast-chicken.jpg', ingredients: ['Whole Chicken', 'Herbs', 'Garlic'], story: 'Perfectly roasted chicken with crispy skin.' },
     { id: 6, name: 'Vegetable Stir Fry', imgSrc: '/images/vegetable-stir-fry.jpg', ingredients: ['Mixed Vegetables', 'Soy Sauce', 'Ginger'], story: 'A quick and healthy meal option.' },
