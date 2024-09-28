@@ -13,7 +13,7 @@ export default function Footer() {
           <Link href="https://github.com/emenius96" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className="text-white hover:text-gray-400 transition-colors duration-200" />
           </Link>
-          <Link href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.instagram.com/birb_n_gude/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} className="text-white hover:text-gray-400 transition-colors duration-200" />
           </Link>
         </div>
